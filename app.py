@@ -11,7 +11,7 @@ app.secret_key = SECRET_KEY
 
 @app.route('/')
 def homepage():
-    return render_template('index.html')
+    return render_template("index.html")
 
 
 if __name__ == '__main__':
