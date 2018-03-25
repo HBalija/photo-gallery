@@ -1,20 +1,19 @@
-# JS Event
+# Photo Gallery
 
-JS click event handling
 
 ### Quickstart
 
 Create Python3 virtual environment:
 
-    mkvirtualenv --python=/usr/bin/python3 simple-event
-
+    mkvirtualenv --python=/usr/bin/python3 gallery-flask
+    
 Get the source from GitHub:
 
-    git clone git@github.com:HBalija/simple-event.git
+    git clone git@github.com:HBalija/photo-gallery.git
 
 Navigate to the project directory:
 
-    cd  simple-event
+    cd  photo-gallery
 
 Instal requirements:
 
