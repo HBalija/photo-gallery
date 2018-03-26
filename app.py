@@ -3,6 +3,7 @@
 from flask import Flask, render_template
 
 from config.base import DEBUG, SECRET_KEY
+from utils import get_image_context
 
 
 app = Flask(__name__)
@@ -11,7 +12,7 @@ app.secret_key = SECRET_KEY
 
 @app.route('/')
 def homepage():
-    return render_template('index.html')
+    return render_template('index.html', images=get_image_context())
 
 
 if __name__ == '__main__':
