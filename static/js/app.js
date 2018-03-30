@@ -32,7 +32,7 @@ overlay.addEventListener('click', function () {
 })
 
 /*
-// jQuery code (jQuery inclusion commented in index.html)
+// jQuery code (include jQuery in index.html)
 
 var $overlay = $('<div id="overlay"></div>')
 var $image = $('<img>')
