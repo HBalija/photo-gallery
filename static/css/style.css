@@ -45,6 +45,7 @@ a {
 
 #overlay img {
  margin-top: 10%;
+ max-width: 100%;
 }
 
 #overlay p {
