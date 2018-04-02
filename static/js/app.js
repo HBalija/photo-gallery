@@ -31,6 +31,8 @@ overlay.addEventListener('click', function () {
   this.style.display = 'none'
 })
 
+$('#overlay').height($(document).height());
+
 /*
 // jQuery code (include jQuery in index.html)
 
